@@ -20,6 +20,7 @@ namespace EmployerManagement
             Host.CreateDefaultBuilder(args)
                 .ConfigureWebHostDefaults(webBuilder =>
                 {
+                    // Added comment
                     webBuilder.UseStartup<Startup>();
                 });
     }
